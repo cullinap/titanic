@@ -7,8 +7,8 @@ import csv
 weights = np.array([0.00009, 0.5, 0.00005, 0.005, 0.005, 0.1, 0.1, 0.005])
 alpha = 0.00001
 
-train_df = pd.read_csv('/Users/patrickcullinane/PycharmProjects/titanic/train.csv')
-test_df = pd.read_csv('/Users/patrickcullinane/PycharmProjects/titanic/test.csv')
+train_df = pd.read_csv('/Users/name/PycharmProjects/titanic/train.csv')
+test_df = pd.read_csv('/Users/name/PycharmProjects/titanic/test.csv')
 combine = [train_df, test_df]
 
 for dataset in combine:
