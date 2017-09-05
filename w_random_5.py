@@ -177,4 +177,4 @@ submission = pd.concat([sub2, sub], axis=1)
 
 print(submission)
 
-submission.to_csv('/Users/patrickcullinane/PycharmProjects/titanic/submission_3.csv', index=False)
+submission.to_csv('/Users/titanic/submission_3.csv', index=False)
